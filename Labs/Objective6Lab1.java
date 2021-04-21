@@ -32,12 +32,15 @@ public class Objective6Lab1 {
         break;
       case 10:
         System.out.println("October");
-        break;      
+        break;
       case 11:
         System.out.println("November");
         break;
       case 12:
         System.out.println("December");
+        break;
+      default:
+        System.out.println("That is not a valid month");
         break;
     }
   }
